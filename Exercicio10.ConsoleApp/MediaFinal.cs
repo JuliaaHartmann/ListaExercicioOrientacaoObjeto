@@ -17,7 +17,7 @@ class MediaFinal
 
     public decimal ObterMediaFinal()
     {
-        decimal mediaFinal = (nota1 * peso1) + (nota2 * peso2) / (peso1 + peso2);
+        decimal mediaFinal = (nota1 * peso1 + nota2 * peso2) / (peso1 + peso2);
         
         return mediaFinal;
     }
